@@ -1,0 +1,16 @@
+PODS:
+  - PisSocket (0.1.0)
+
+DEPENDENCIES:
+  - PisSocket (from `../`)
+
+EXTERNAL SOURCES:
+  PisSocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PisSocket: e066a95a3640795ebde2c805c4212b1ac09e9e3e
+
+PODFILE CHECKSUM: 88d39f1e704a9fe0efad1227db25d6de6077f4ee
+
+COCOAPODS: 1.9.3

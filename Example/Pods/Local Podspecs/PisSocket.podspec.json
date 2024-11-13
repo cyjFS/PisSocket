@@ -1,0 +1,22 @@
+{
+  "name": "PisSocket",
+  "version": "0.1.0",
+  "summary": "A short description of PisSocket.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cyjCS/PisSocket",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cyjCS": "693508027@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cyjCS/PisSocket.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PisSocket/Classes/**/*"
+}

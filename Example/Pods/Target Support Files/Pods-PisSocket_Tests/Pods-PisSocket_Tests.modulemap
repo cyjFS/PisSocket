@@ -1,0 +1,6 @@
+framework module Pods_PisSocket_Tests {
+  umbrella header "Pods-PisSocket_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

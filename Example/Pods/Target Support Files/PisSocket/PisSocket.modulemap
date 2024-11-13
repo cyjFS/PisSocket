@@ -1,0 +1,6 @@
+framework module PisSocket {
+  umbrella header "PisSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

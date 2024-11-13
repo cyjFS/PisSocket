@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C07F10B5A0873C57F251FA8E3E083E7 /* Pods-PisSocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C11207150D7E6511006BBBAB4A7D4C1B /* Pods-PisSocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A48828FA39B6ED9D007BCF825A4F021 /* PisSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361B6597D0352B97BAD19EB4DBFBD9EA /* PisSocketManager.swift */; };
+		5924018B238949F10B1AEA4E206F6886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67CF08394202D5DE744BE6A617502B96 /* PisSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C532DD92B6EC1F4FFECC38CA2F04982A /* PisSocket-dummy.m */; };
+		869B07EA2EF16338516F7F322F389E44 /* PisSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 578E94473EA931E031636B88A6BCD444 /* PisSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F834E635C34A619B0C2DA32383BC015 /* Pods-PisSocket_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0DEADCEFCE2868B3EC8372FAF677AC /* Pods-PisSocket_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9CCC59C58895446456A6684808F63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DFB5B08B875F14C553ECD2F4C9EC87A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E34B36DD5E6B65F6573FE0659172D238 /* Pods-PisSocket_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC496FF39ECA990DDBB5BC1D33EA3AA /* Pods-PisSocket_Example-dummy.m */; };
+		F32E1E100C5E2DD54A58DBF364145C75 /* Pods-PisSocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BFDC83F362CB09DC4880AEAD32797F /* Pods-PisSocket_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		824B50BD602E10E467706B6C0F32439A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6964DEFBE28BE9BB0E9B308D1824EACF;
+			remoteInfo = "Pods-PisSocket_Example";
+		};
+		AA064C477E4734149BC9CBF4088FAF22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB52A12CC06D9EA8C9177A0045033CD;
+			remoteInfo = PisSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		071F597C6F25FF238096C98CC6F12FB7 /* Pods-PisSocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A11DC18B10B9AF8CABACB640FF0EA7C /* PisSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PisSocket-prefix.pch"; sourceTree = "<group>"; };
+		16BD220AA355FE6C7BAB7D84B0C1B4A8 /* Pods-PisSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1F653DD1B5BDBA6BE35DA8D686D51B5E /* Pods-PisSocket_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PisSocket_Example.modulemap"; sourceTree = "<group>"; };
+		28C92912985ACEA9B42E6876E8F63A06 /* Pods-PisSocket_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PisSocket_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33CA046B416FCB07D7C9C3DB087A4252 /* Pods-PisSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
+		361B6597D0352B97BAD19EB4DBFBD9EA /* PisSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PisSocketManager.swift; path = PisSocket/Classes/PisSocketManager.swift; sourceTree = "<group>"; };
+		3BD6AF123C047B58877C22EB900FB649 /* Pods-PisSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4870EC42C33AC0E91C91C8390A8B3FE8 /* Pods_PisSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PisSocket_Tests.framework; path = "Pods-PisSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA694F702E9F6E9BDC554339F735697 /* PisSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PisSocket-Info.plist"; sourceTree = "<group>"; };
+		578E94473EA931E031636B88A6BCD444 /* PisSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PisSocket-umbrella.h"; sourceTree = "<group>"; };
+		5E03CBCEAE90FB7D37124F143903C4D7 /* PisSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PisSocket.release.xcconfig; sourceTree = "<group>"; };
+		61BFDC83F362CB09DC4880AEAD32797F /* Pods-PisSocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PisSocket_Tests-dummy.m"; sourceTree = "<group>"; };
+		621CEA07423F12FB017924FEA869C32B /* PisSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PisSocket.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B0DEADCEFCE2868B3EC8372FAF677AC /* Pods-PisSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PisSocket_Example-umbrella.h"; sourceTree = "<group>"; };
+		7DFA5A626F1FE47321F25F7F195D79B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CC496FF39ECA990DDBB5BC1D33EA3AA /* Pods-PisSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PisSocket_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC342789889ACE47D48910E0B355A08E /* Pods-PisSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PisSocket_Tests.modulemap"; sourceTree = "<group>"; };
+		C11207150D7E6511006BBBAB4A7D4C1B /* Pods-PisSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PisSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C532DD92B6EC1F4FFECC38CA2F04982A /* PisSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PisSocket-dummy.m"; sourceTree = "<group>"; };
+		C72A3ED611589DBBA038691AA33D336C /* Pods-PisSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PisSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C912B0AD3514F3BBF2EF557C6B8E27EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CBFB9DC8F7F5DD1E4E01AB03E809D2B7 /* Pods-PisSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PisSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1CECFA51B875234EB8D231574B6299A /* PisSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PisSocket.framework; path = PisSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E372BB06E8CEDD40407CC467155BDC /* PisSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PisSocket.modulemap; sourceTree = "<group>"; };
+		D50446BC8AFF32404F16CB907EA9FADF /* Pods-PisSocket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Tests-Info.plist"; sourceTree = "<group>"; };
+		E49734BE0F8B1D1486C21E1D6E2D4813 /* Pods-PisSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Example-Info.plist"; sourceTree = "<group>"; };
+		E9E24D44AA290CA265EB6F5D3D2BC2DE /* Pods-PisSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC12CDEAD015D576AD1B25AA01E8AEF0 /* Pods_PisSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PisSocket_Example.framework; path = "Pods-PisSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1128CA11E556B755027369E20F5EED2 /* Pods-PisSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F71F02BDAA39AEF47A88AE8C3B2F57B6 /* PisSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PisSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CD6208718BC65B42789C6096C97300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5924018B238949F10B1AEA4E206F6886 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C8F479DD1D24168B0E5B5EE6702B132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB5B08B875F14C553ECD2F4C9EC87A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EBB0E37BFFA23A64ED1DE8DEDC7538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9CCC59C58895446456A6684808F63D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB5FBAF6E25016F09120F4748BE405D /* Pods-PisSocket_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F653DD1B5BDBA6BE35DA8D686D51B5E /* Pods-PisSocket_Example.modulemap */,
+				28C92912985ACEA9B42E6876E8F63A06 /* Pods-PisSocket_Example-acknowledgements.markdown */,
+				F1128CA11E556B755027369E20F5EED2 /* Pods-PisSocket_Example-acknowledgements.plist */,
+				8CC496FF39ECA990DDBB5BC1D33EA3AA /* Pods-PisSocket_Example-dummy.m */,
+				C72A3ED611589DBBA038691AA33D336C /* Pods-PisSocket_Example-frameworks.sh */,
+				E49734BE0F8B1D1486C21E1D6E2D4813 /* Pods-PisSocket_Example-Info.plist */,
+				7B0DEADCEFCE2868B3EC8372FAF677AC /* Pods-PisSocket_Example-umbrella.h */,
+				3BD6AF123C047B58877C22EB900FB649 /* Pods-PisSocket_Example.debug.xcconfig */,
+				33CA046B416FCB07D7C9C3DB087A4252 /* Pods-PisSocket_Example.release.xcconfig */,
+			);
+			name = "Pods-PisSocket_Example";
+			path = "Target Support Files/Pods-PisSocket_Example";
+			sourceTree = "<group>";
+		};
+		4E82F0868254F6AB8528FA66E4F1A5A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BB5FBAF6E25016F09120F4748BE405D /* Pods-PisSocket_Example */,
+				D610603A400C2D6C2F17762BA93279CB /* Pods-PisSocket_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		539EE6B1EA3D67C736E34EC61D366BDB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89D93DB469499D984E2112FFEF804AC3 /* PisSocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67CD70B5DC893AC621F4BE2265F95F63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2E372BB06E8CEDD40407CC467155BDC /* PisSocket.modulemap */,
+				C532DD92B6EC1F4FFECC38CA2F04982A /* PisSocket-dummy.m */,
+				4EA694F702E9F6E9BDC554339F735697 /* PisSocket-Info.plist */,
+				0A11DC18B10B9AF8CABACB640FF0EA7C /* PisSocket-prefix.pch */,
+				578E94473EA931E031636B88A6BCD444 /* PisSocket-umbrella.h */,
+				621CEA07423F12FB017924FEA869C32B /* PisSocket.debug.xcconfig */,
+				5E03CBCEAE90FB7D37124F143903C4D7 /* PisSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PisSocket";
+			sourceTree = "<group>";
+		};
+		89D93DB469499D984E2112FFEF804AC3 /* PisSocket */ = {
+			isa = PBXGroup;
+			children = (
+				361B6597D0352B97BAD19EB4DBFBD9EA /* PisSocketManager.swift */,
+				959647A1F0CC18AF23131AFBC85B7925 /* Pod */,
+				67CD70B5DC893AC621F4BE2265F95F63 /* Support Files */,
+			);
+			name = PisSocket;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		935268C6097A54466C6C15E3B8D7A45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1CECFA51B875234EB8D231574B6299A /* PisSocket.framework */,
+				EC12CDEAD015D576AD1B25AA01E8AEF0 /* Pods_PisSocket_Example.framework */,
+				4870EC42C33AC0E91C91C8390A8B3FE8 /* Pods_PisSocket_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959647A1F0CC18AF23131AFBC85B7925 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C912B0AD3514F3BBF2EF557C6B8E27EC /* LICENSE */,
+				F71F02BDAA39AEF47A88AE8C3B2F57B6 /* PisSocket.podspec */,
+				7DFA5A626F1FE47321F25F7F195D79B8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				539EE6B1EA3D67C736E34EC61D366BDB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				935268C6097A54466C6C15E3B8D7A45B /* Products */,
+				4E82F0868254F6AB8528FA66E4F1A5A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D610603A400C2D6C2F17762BA93279CB /* Pods-PisSocket_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC342789889ACE47D48910E0B355A08E /* Pods-PisSocket_Tests.modulemap */,
+				CBFB9DC8F7F5DD1E4E01AB03E809D2B7 /* Pods-PisSocket_Tests-acknowledgements.markdown */,
+				071F597C6F25FF238096C98CC6F12FB7 /* Pods-PisSocket_Tests-acknowledgements.plist */,
+				61BFDC83F362CB09DC4880AEAD32797F /* Pods-PisSocket_Tests-dummy.m */,
+				D50446BC8AFF32404F16CB907EA9FADF /* Pods-PisSocket_Tests-Info.plist */,
+				C11207150D7E6511006BBBAB4A7D4C1B /* Pods-PisSocket_Tests-umbrella.h */,
+				E9E24D44AA290CA265EB6F5D3D2BC2DE /* Pods-PisSocket_Tests.debug.xcconfig */,
+				16BD220AA355FE6C7BAB7D84B0C1B4A8 /* Pods-PisSocket_Tests.release.xcconfig */,
+			);
+			name = "Pods-PisSocket_Tests";
+			path = "Target Support Files/Pods-PisSocket_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B63FAB8F2873FF48D5F435C438D769B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C07F10B5A0873C57F251FA8E3E083E7 /* Pods-PisSocket_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4527B44FE42794258A1D191CD1C534E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869B07EA2EF16338516F7F322F389E44 /* PisSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557C47842C5F04EB202A90CF1D0F8F0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F834E635C34A619B0C2DA32383BC015 /* Pods-PisSocket_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B75DE329B53A5CCDB2EAEB3ED234F83 /* Pods-PisSocket_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A14338BE892B4748D839DBB7B6F962 /* Build configuration list for PBXNativeTarget "Pods-PisSocket_Tests" */;
+			buildPhases = (
+				0B63FAB8F2873FF48D5F435C438D769B /* Headers */,
+				79843CBF29CD5EFB2F63504703252E72 /* Sources */,
+				1C8F479DD1D24168B0E5B5EE6702B132 /* Frameworks */,
+				CF3E66A74913F4CADF86B617823CAE68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCE371FAB674DF4BE00E6BA72382B96 /* PBXTargetDependency */,
+			);
+			name = "Pods-PisSocket_Tests";
+			productName = "Pods-PisSocket_Tests";
+			productReference = 4870EC42C33AC0E91C91C8390A8B3FE8 /* Pods_PisSocket_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6964DEFBE28BE9BB0E9B308D1824EACF /* Pods-PisSocket_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FDDB4237F9364922741B1A71169CDC5 /* Build configuration list for PBXNativeTarget "Pods-PisSocket_Example" */;
+			buildPhases = (
+				557C47842C5F04EB202A90CF1D0F8F0B /* Headers */,
+				86A9B1558A102B83DD35D7CBAD9D50E9 /* Sources */,
+				D1EBB0E37BFFA23A64ED1DE8DEDC7538 /* Frameworks */,
+				EE4B95A3D96265E7D905E5AE45AF23EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747F75B1B7EA43FD6DD716774D2878C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PisSocket_Example";
+			productName = "Pods-PisSocket_Example";
+			productReference = EC12CDEAD015D576AD1B25AA01E8AEF0 /* Pods_PisSocket_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBB52A12CC06D9EA8C9177A0045033CD /* PisSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A2DF962836D8595EE2340775D52C8B /* Build configuration list for PBXNativeTarget "PisSocket" */;
+			buildPhases = (
+				4527B44FE42794258A1D191CD1C534E7 /* Headers */,
+				4F6D5E5D40521202959332747FC8C8DC /* Sources */,
+				03CD6208718BC65B42789C6096C97300 /* Frameworks */,
+				7921D961331FF17B3BD8F2B5CB4721BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PisSocket;
+			productName = PisSocket;
+			productReference = D1CECFA51B875234EB8D231574B6299A /* PisSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 935268C6097A54466C6C15E3B8D7A45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB52A12CC06D9EA8C9177A0045033CD /* PisSocket */,
+				6964DEFBE28BE9BB0E9B308D1824EACF /* Pods-PisSocket_Example */,
+				0B75DE329B53A5CCDB2EAEB3ED234F83 /* Pods-PisSocket_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7921D961331FF17B3BD8F2B5CB4721BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3E66A74913F4CADF86B617823CAE68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4B95A3D96265E7D905E5AE45AF23EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F6D5E5D40521202959332747FC8C8DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67CF08394202D5DE744BE6A617502B96 /* PisSocket-dummy.m in Sources */,
+				4A48828FA39B6ED9D007BCF825A4F021 /* PisSocketManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79843CBF29CD5EFB2F63504703252E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32E1E100C5E2DD54A58DBF364145C75 /* Pods-PisSocket_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86A9B1558A102B83DD35D7CBAD9D50E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34B36DD5E6B65F6573FE0659172D238 /* Pods-PisSocket_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		747F75B1B7EA43FD6DD716774D2878C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PisSocket;
+			target = DBB52A12CC06D9EA8C9177A0045033CD /* PisSocket */;
+			targetProxy = AA064C477E4734149BC9CBF4088FAF22 /* PBXContainerItemProxy */;
+		};
+		EBCE371FAB674DF4BE00E6BA72382B96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PisSocket_Example";
+			target = 6964DEFBE28BE9BB0E9B308D1824EACF /* Pods-PisSocket_Example */;
+			targetProxy = 824B50BD602E10E467706B6C0F32439A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22916454D92EB89F9900CC0166DE4202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CA046B416FCB07D7C9C3DB087A4252 /* Pods-PisSocket_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28A3505D555EAB406E50769C28ACB960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E24D44AA290CA265EB6F5D3D2BC2DE /* Pods-PisSocket_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		410261FF4C2131812FDB8F5F0C604F9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD6AF123C047B58877C22EB900FB649 /* Pods-PisSocket_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F2E628F72B1242F9DFB7A174E35FF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621CEA07423F12FB017924FEA869C32B /* PisSocket.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PisSocket/PisSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PisSocket/PisSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PisSocket/PisSocket.modulemap";
+				PRODUCT_MODULE_NAME = PisSocket;
+				PRODUCT_NAME = PisSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76152276226622815C2496BF13289AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E03CBCEAE90FB7D37124F143903C4D7 /* PisSocket.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PisSocket/PisSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PisSocket/PisSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PisSocket/PisSocket.modulemap";
+				PRODUCT_MODULE_NAME = PisSocket;
+				PRODUCT_NAME = PisSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C5F6B45C49CD287926A64AD254E8B948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16BD220AA355FE6C7BAB7D84B0C1B4A8 /* Pods-PisSocket_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FDDB4237F9364922741B1A71169CDC5 /* Build configuration list for PBXNativeTarget "Pods-PisSocket_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410261FF4C2131812FDB8F5F0C604F9F /* Debug */,
+				22916454D92EB89F9900CC0166DE4202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A2DF962836D8595EE2340775D52C8B /* Build configuration list for PBXNativeTarget "PisSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2E628F72B1242F9DFB7A174E35FF35 /* Debug */,
+				76152276226622815C2496BF13289AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A14338BE892B4748D839DBB7B6F962 /* Build configuration list for PBXNativeTarget "Pods-PisSocket_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A3505D555EAB406E50769C28ACB960 /* Debug */,
+				C5F6B45C49CD287926A64AD254E8B948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
