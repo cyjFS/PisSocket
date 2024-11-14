@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		24B3E432C0202D72E127B699 /* Pods-PisSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisSocket_Example.debug.xcconfig"; path = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		266BF9A06C5999D432E51B12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		266BF9A06C5999D432E51B12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		35AACC36B8F83E27F1B4C0ED /* Pods-PisSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisSocket_Tests.release.xcconfig"; path = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		43D43EAC678B949CCAAD8513 /* Pods_PisSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4FD2B110CC1439865FA81E /* Pods-PisSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisSocket_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PisSocket_Tests/Pods-PisSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACE51AFB9204008FA782 /* PisSocket_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PisSocket_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		AEB1BB10EFBF1F7B70B4C134 /* PisSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PisSocket.podspec; path = ../PisSocket.podspec; sourceTree = "<group>"; };
-		AF80ECE141C2D7CBC4D30C23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AEB1BB10EFBF1F7B70B4C134 /* PisSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PisSocket.podspec; path = ../PisSocket.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF80ECE141C2D7CBC4D30C23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B52EB1A25E98B85C91ABA958 /* Pods_PisSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D6DE05E30BEED2BEEB6E03 /* Pods-PisSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PisSocket_Example.release.xcconfig"; path = "Target Support Files/Pods-PisSocket_Example/Pods-PisSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				4B4FD2B110CC1439865FA81E /* Pods-PisSocket_Tests.debug.xcconfig */,
 				35AACC36B8F83E27F1B4C0ED /* Pods-PisSocket_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PisSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PisSocket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

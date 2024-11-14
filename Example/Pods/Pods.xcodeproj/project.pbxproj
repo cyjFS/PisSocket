@@ -45,7 +45,7 @@
 		33CA046B416FCB07D7C9C3DB087A4252 /* Pods-PisSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		361B6597D0352B97BAD19EB4DBFBD9EA /* PisSocketManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PisSocketManager.swift; path = PisSocket/Classes/PisSocketManager.swift; sourceTree = "<group>"; };
 		3BD6AF123C047B58877C22EB900FB649 /* Pods-PisSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4870EC42C33AC0E91C91C8390A8B3FE8 /* Pods_PisSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PisSocket_Tests.framework; path = "Pods-PisSocket_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4870EC42C33AC0E91C91C8390A8B3FE8 /* Pods_PisSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA694F702E9F6E9BDC554339F735697 /* PisSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PisSocket-Info.plist"; sourceTree = "<group>"; };
 		578E94473EA931E031636B88A6BCD444 /* PisSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PisSocket-umbrella.h"; sourceTree = "<group>"; };
 		5E03CBCEAE90FB7D37124F143903C4D7 /* PisSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PisSocket.release.xcconfig; sourceTree = "<group>"; };
@@ -53,23 +53,23 @@
 		621CEA07423F12FB017924FEA869C32B /* PisSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PisSocket.debug.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B0DEADCEFCE2868B3EC8372FAF677AC /* Pods-PisSocket_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PisSocket_Example-umbrella.h"; sourceTree = "<group>"; };
-		7DFA5A626F1FE47321F25F7F195D79B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7DFA5A626F1FE47321F25F7F195D79B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8CC496FF39ECA990DDBB5BC1D33EA3AA /* Pods-PisSocket_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PisSocket_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC342789889ACE47D48910E0B355A08E /* Pods-PisSocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PisSocket_Tests.modulemap"; sourceTree = "<group>"; };
 		C11207150D7E6511006BBBAB4A7D4C1B /* Pods-PisSocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PisSocket_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C532DD92B6EC1F4FFECC38CA2F04982A /* PisSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PisSocket-dummy.m"; sourceTree = "<group>"; };
 		C72A3ED611589DBBA038691AA33D336C /* Pods-PisSocket_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PisSocket_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C912B0AD3514F3BBF2EF557C6B8E27EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C912B0AD3514F3BBF2EF557C6B8E27EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBFB9DC8F7F5DD1E4E01AB03E809D2B7 /* Pods-PisSocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PisSocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D1CECFA51B875234EB8D231574B6299A /* PisSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PisSocket.framework; path = PisSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CECFA51B875234EB8D231574B6299A /* PisSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PisSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E372BB06E8CEDD40407CC467155BDC /* PisSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PisSocket.modulemap; sourceTree = "<group>"; };
 		D50446BC8AFF32404F16CB907EA9FADF /* Pods-PisSocket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Tests-Info.plist"; sourceTree = "<group>"; };
 		E49734BE0F8B1D1486C21E1D6E2D4813 /* Pods-PisSocket_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Example-Info.plist"; sourceTree = "<group>"; };
 		E9E24D44AA290CA265EB6F5D3D2BC2DE /* Pods-PisSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PisSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC12CDEAD015D576AD1B25AA01E8AEF0 /* Pods_PisSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PisSocket_Example.framework; path = "Pods-PisSocket_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC12CDEAD015D576AD1B25AA01E8AEF0 /* Pods_PisSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PisSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1128CA11E556B755027369E20F5EED2 /* Pods-PisSocket_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PisSocket_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F71F02BDAA39AEF47A88AE8C3B2F57B6 /* PisSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PisSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F71F02BDAA39AEF47A88AE8C3B2F57B6 /* PisSocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PisSocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -520,6 +520,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PisSocket/PisSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/PisSocket/PisSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -551,6 +552,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PisSocket/PisSocket-prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Target Support Files/PisSocket/PisSocket-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -621,6 +623,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -683,13 +686,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

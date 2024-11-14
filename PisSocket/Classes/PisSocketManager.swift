@@ -10,9 +10,9 @@ import Foundation
 
 @available(iOS 12.0, *)
 protocol PisSocketManagerDelegate: AnyObject {
-    func socketManagerDidConnect(manager: SocketManager, host: String)
-    func socketManagerDidDisconnect(manager: SocketManager, error: Error?)
-    func socketManagerDidReceiveData(manager: SocketManager, data: Data)
+    func socketManagerDidConnect(manager: PisSocketManager, host: String)
+    func socketManagerDidDisconnect(manager: PisSocketManager, error: Error?)
+    func socketManagerDidReceiveData(manager: PisSocketManager, data: Data)
 }
 
 @available(iOS 12.0, *)

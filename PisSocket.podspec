@@ -21,14 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/cyjCS/PisSocket'
+  s.homepage         = 'https://github.com/cyjFS/PisSocket'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cyjCS' => '693508027@qq.com' }
-  s.source           = { :git => 'https://github.com/cyjCS/PisSocket.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cyjFS/PisSocket.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+    s.user_target_xcconfig = {
+        'GENERATE_INFOPLIST_FILE' => 'YES'
+    }
+
+    s.pod_target_xcconfig = {
+        'GENERATE_INFOPLIST_FILE' => 'YES'
+    }
+
 
   s.source_files = 'PisSocket/Classes/**/*'
   
